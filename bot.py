@@ -24,34 +24,36 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("** Mən @bosssupportaz üçüb yaradılmış kömək botuyam.**",
+  await event.reply("** Mən @aliyefh üçün yaradılmışam  **",
                     buttons=(
                    
 		  
-                      [Button.url('Support🛠', 'https://t.me/bosssupportaz')],
-                      [Button.url('Rəsmi Kanal', 'https://t.me/bossuserbot')],
-                      [Button.url('innovating', 'https://t.me/aliyefh_sos')],
+                      [Button.url('mən', 'https://t.me/aliyefhsos')],
+                      [Button.url('WhatsApp', 'https://wa.me/9940705647159')],
+                      [Button.url('github', 'https://github.com/aliyefhX')],
                     ),
                     link_preview=False
                    )
-@client.on(events.NewMessage(pattern="^/boss$"))
+@client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "** {} Hi /notes yazaraq Qrupda olan notları görə bilərsiniz\n  ＢＯＳＳ ＰＲＯＪＥＣＴＳ **"
+  helptext = "** {} start yazda ayx **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Support🛠', 'https://t.me/bosssupportaz')],
-                      [Button.url('Rəsmi Kanal', 'https://t.me/bossuserbot')],
+                      [Button.url('mən', 'https://t.me/aliyefhsos')],
+                      [Button.url('WhatsApp', 'https://wa.me/9940705647159')],
+                      [Button.url('github', 'https://github.com/aliyefhX')],
                     ),
                     link_preview=False
                    )
 	
-@client.on(events.NewMessage(pattern="^kömək$"))
+@client.on(events.NewMessage(pattern="^hüsünün xətrinə$"))
 async def help(event):
-  helptext = "** {} Hi /notes yazaraq Qrupda olan notları görə bilərsiniz\n  ＢＯＳＳ ＰＲＯＪＥＣＴＳ **"
+  helptext = "** {} start yazda ayx **"
   await event.reply(helptext,
                     buttons=(
-                        [Button.url('Support🛠', 'https://t.me/bosssupportaz')],
-                      [Button.url('Rəsmi Kanal', 'https://t.me/bossuserbot')],
+                      [Button.url('mən', 'https://t.me/aliyefhsos')],
+                      [Button.url('WhatsApp', 'https://wa.me/9940705647159')],
+                      [Button.url('github', 'https://github.com/aliyefhX')],
                     ),
                     link_preview=False
                    )
